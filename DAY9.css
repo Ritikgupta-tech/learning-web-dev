@@ -1,10 +1,13 @@
 h1{
    color: aqua; 
    background-color: black;
+   
+
 }
 p{
     color: white;
     background-color: black;
+
 }
 h2{
     color: orange;
@@ -14,7 +17,7 @@ button{
     background-color: blue;
 }
 ul{
-    color: rgb(0,0,255);
+    color: rgb(255, 0, 13); 
 }
 h3{
     color: #ff00ff;
@@ -28,3 +31,4 @@ h5{
 h6{
     color: #ffff00;
 }
+
