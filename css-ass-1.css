@@ -1,11 +1,13 @@
 p{
     color:#a52a2a;
     text-align: center;
+    line-height: 30px;
 }
 h1{
     text-align: center;
     color: red;
     font-family: Georgia;
+    text-decoration: underline;
 }
 h3{
     text-align: center;
@@ -13,4 +15,19 @@ h3{
 }
 h4{
     text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 0);
+}
+button{
+
+    background-color: white;
+    color: blueviolet;
+}
+textarea{
+    color: black;
+}
+span{
+    text-decoration: underline;
 }
