@@ -1,0 +1,36 @@
+*{
+    font-family: 'Courier New';
+}
+
+h1,h3{
+    color: #b92b27;
+}
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #b92b27; 
+    color: white;   
+}
+.upvote{
+    background-color: greenyellow;
+    color: aliceblue;
+}
+/* desendent selector*/
+.post a{
+    color: purple;
+    background-color: aqua;
+}
+nav ul li a{
+    color: rgb(172, 5, 243);
+}
+p+h3{
+    text-decoration: underline;
+}
+.upvote + button{
+    color: rgb(0, 13, 255);
+    background-color: black;
+}
+div>input{
+    background-color: powderblue;
+}
