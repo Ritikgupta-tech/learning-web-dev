@@ -34,3 +34,30 @@ p+h3{
 div>input{
     background-color: powderblue;
 }
+
+input[type="text"]{
+    color: rgb(204, 9, 234);
+}
+input[type="password"]{
+    color: rgb(244, 53, 5);
+}
+input[type]{
+    background-color: ghostwhite;
+}
+button:hover {
+    background-color: rgba(4, 52, 243, 0.958);
+    color: aliceblue;
+}
+h3:hover{
+    text-decoration: overline;
+}
+button:active{
+    background-color: purple;
+    color: black;
+}
+p:active{
+    color: aquamarine;
+}
+div:nth-of-type(2n){
+    background-color: aqua;
+}
