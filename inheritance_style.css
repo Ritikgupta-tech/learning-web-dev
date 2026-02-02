@@ -1,0 +1,15 @@
+div{
+    background-color: blueviolet;
+}
+form{
+    background-color: aqua;
+}
+input{
+    background-color: inherit;
+}
+button{
+    background-color: inherit;
+}
+button:hover{
+    background-color: blue;
+}

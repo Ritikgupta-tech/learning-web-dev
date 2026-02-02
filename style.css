@@ -61,3 +61,12 @@ p:active{
 div:nth-of-type(2n){
     background-color: aqua;
 }
+h1::first-letter{
+    color: #3fb927;
+}
+p::first-line{
+    color: purple;
+}
+p::selection{
+    background-color: rgb(199, 151, 6);
+}
