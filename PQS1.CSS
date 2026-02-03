@@ -1,0 +1,40 @@
+#outer{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}
+.inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
+
+span{
+    display: block;
+    background-color: greenyellow;
+}
+h1{
+    display: inline;
+    background-color: aqua;
+}
+/*div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 4, 230);
+    border: 2px solid rgb(0, 0, 0);
+    margin: 5px;
+    display: inline-block;
+}

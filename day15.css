@@ -11,10 +11,25 @@ div{
     border-top: 5px dashed rgb(47, 64, 255);
     border-radius: 15px;
     border-top-right-radius: 2px;
+    padding-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    
 }
 h1{
    /* border-width: 2px;
     border-style: dashed;
     border-color: purple ;*/
     border: 2px dashed green;
+    margin: 0%;
+}
+button{
+    border: 2px solid black;
+    height: 30px;
+    padding-top:2px;
+    border-radius: 20px;
+    padding-left:25px;
+    padding-right:25px;
+    background-color: aquamarine;
+    margin: 10px;
 }
