@@ -7,9 +7,21 @@ h1{
     height: 400px;
     width: 400px;
     background-color: aqua;
+    margin: 50px;
+    font-size: 20px;
 }
 #inner{
     height: 100px;
     width: 100px;
     background-color: rgb(10, 6, 243);
+    margin-left: 10%;
+    font-size: 2em;
+    padding: 1em;
+}
+button{
+    border: 5px solid rgb(23, 234, 8);
+    border-radius: 15px;
+    font-size: 50px;
+    padding-left: 1em;
+    padding-right: 1em;
 }
