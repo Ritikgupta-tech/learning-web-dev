@@ -1,0 +1,15 @@
+h1{
+    border: 2px solid black;
+    width: 50%;
+}
+
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(10, 6, 243);
+}
