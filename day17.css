@@ -1,5 +1,5 @@
 #boxx{
-    height: 150px;
+    height: 300px;
     width: 300px;
     background-color: grey;
     border: 5px black dashed;
@@ -8,15 +8,36 @@
     margin-bottom: 40px;
     margin-left: 2em;
     padding: 1em;
+    
+   
 }
 #box{
     height: 100px;
     width: 100px;
-    background-color: pink;
+    background-color: rgb(5, 218, 44);
     border: 2px solid black;
-    border-radius: 100px;
+    
     display: inline-block;
+    transition: 2s;
+   
 }
 li{
     display: inline;
+}
+#alpha{
+    background-color: rgba(0, 33, 247, 0.3);
+    height:200px;
+    width: 200px;
+    border: 1px solid black;
+}
+#opacity{
+    background-color: rgba(255, 0, 0, 0.3);
+    opacity: .5;
+    height:200px;
+    width: 200px;
+    border: 1px solid black;
+}
+#box:hover{
+    background-color: #000;
+    border-radius:50%;
 }
