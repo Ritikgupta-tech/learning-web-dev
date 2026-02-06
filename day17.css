@@ -8,7 +8,8 @@
     margin-bottom: 40px;
     margin-left: 2em;
     padding: 1em;
-    
+    margin: 0 auto;
+    transition: margin-top 2s ease-in 0.2;
    
 }
 #box{
@@ -18,7 +19,8 @@
     border: 2px solid black;
     
     display: inline-block;
-    transition: 2s;
+    transition-duration: 2s;
+    transition-delay: 3s;
    
 }
 li{
@@ -40,4 +42,8 @@ li{
 #box:hover{
     background-color: #000;
     border-radius:50%;
+}
+#boxx:hover{
+    margin-top: 400px;
+    background-color: blue;
 }
