@@ -1,0 +1,62 @@
+#transform{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in 0.2s;
+}
+#transform:hover{
+    margin-top: 400px;
+    background-color: aqua;
+}
+section{
+    margin-top: 100px;
+}
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa674;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+
+#one{
+    transform:rotate(45deg)
+    
+}
+#two{
+    transform:scale(0.5 , 2);
+}
+#three{
+    transform:translateX(-100px) ;
+}
+#four{
+    transform: skew(-30deg);
+}
+#five{
+    transform: rotate(30deg) translate(50px);
+}
+#shadow{
+    width: 200px;
+    height: 50px;
+    background-color: #0741e1;
+    margin: 10px auto; 
+    box-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+#bgimg{
+     width: 400px;
+    height: 200px;
+    background-color: #0741e1;  
+    margin: 10px auto; 
+    background-image: url("RITIK.jpg");
+    background-size: cover;
+
+}

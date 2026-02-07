@@ -9,7 +9,7 @@
     margin-left: 2em;
     padding: 1em;
     margin: 0 auto;
-    transition: margin-top 2s ease-in 0.2;
+    transition: margin-top 2s;
    
 }
 #box{
@@ -47,3 +47,4 @@ li{
     margin-top: 400px;
     background-color: blue;
 }
+
