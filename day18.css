@@ -52,7 +52,7 @@ div:nth-of-type(3n){
     box-shadow: 2px 2px 8px rgb(0, 0, 0);
 }
 #bgimg{
-     width: 400px;
+    width: 400px;
     height: 200px;
     background-color: #0741e1;  
     margin: 10px auto; 
