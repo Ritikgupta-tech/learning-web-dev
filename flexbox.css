@@ -47,6 +47,7 @@ h1{
    /* flex-grow: 1;
     /* flex-basis: 50px;*/
     flex-shrink: 1;
+    flex-basis: 150px;
 }
 #container div{
     height: 100px; 
