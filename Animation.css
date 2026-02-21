@@ -1,0 +1,48 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: aqua;
+   /* animation-name: widthAnimate;
+    animation-name: colorAnimate;
+    animation-name: fontAnimation;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 3;
+    animation-direction:alternate ;
+    animation: widthAnimate 5s 0s ease-in 3 alternate;*/
+    animation: colorAnimate 5s 0s ease-in 3 alternate;
+
+}
+@keyframes fontAnimation{
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+}
+@keyframes widthAnimate {
+    from{
+        width: 10px;
+         background-color: aqua;
+    }
+    to{
+        width: 400px;
+        background-color: brown;
+        border-radius: 15px;
+    
+    }
+}
+@keyframes colorAnimate {
+    0%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: brown;
+    }
+    100%{
+        background-color: rgb(2, 2, 251);
+    }
+    
+}

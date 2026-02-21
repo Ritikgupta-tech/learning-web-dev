@@ -1,0 +1,51 @@
+h1{
+    background-color: aqua;
+    border: 2px solid black;
+}
+@media (width:400px){
+    h1{
+        background-color: blueviolet;
+    }
+    div{
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+    }
+}
+@media (min-width:700px){
+    h1{
+        background-color: rgb(55, 226, 43);
+    }
+    div{
+        height: 100px;
+        width: 100px;
+        background-color: rgb(255, 0, 0);
+    }
+}
+@media (max-width:200px){
+    h1{
+        background-color: rgb(226, 211, 43);
+    }
+    div{
+        height: 100px;
+        width: 100px;
+        background-color: rgb(221, 0, 255);
+    }
+}
+@media (min-width:200px) and (max-width:300px){
+    h1{
+        background-color: pink;
+    }
+    div{
+        height: 100px;
+        width: 100px;
+        background-color: lightblue;
+    }
+}
+@media (orientation:landscape) {
+    h1{
+        background-color: darkmagenta;
+        color: aquamarine;
+    }
+    
+}
