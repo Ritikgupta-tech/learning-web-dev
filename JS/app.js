@@ -49,3 +49,49 @@ if (str[0]==='a' && str.length > 3) {
 } else {
     console.log("bad");
 }
+
+let colour="red";
+switch (colour) {
+    case "red":
+        console.log("stoping");
+        break;
+     case "yellow":
+        console.log("slow down");
+        break;
+     case "green":
+        console.log("go");
+        break;
+    default:
+        console.log("broken traffic light");
+}
+let day=7;
+switch (day) {
+    case 1:
+        console.log("sunday");
+        break;
+     case 2:
+        console.log("monday");
+        break;
+     case 3:
+        console.log("tuesday");
+        break;
+         case 4:
+        console.log("wednessday");
+        break;
+         case 5:
+        console.log("thursday");
+        break;
+         case 6:
+        console.log("friday");
+        break;
+         case 7:
+        console.log("saturday");
+        break;
+    default:
+        console.log("error");
+}
+
+alert("something try to diffrent");
+console.log("this is something good");
+console.error("this is an error msg");
+
