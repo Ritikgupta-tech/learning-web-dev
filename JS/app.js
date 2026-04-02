@@ -94,6 +94,59 @@ switch (day) {
 alert("something try to diffrent");
 console.log("this is something good");
 console.error("this is an error msg");
-let firstName=prompt("enter your name");
-console.log(firstName);
+let firstName=prompt("enter first name");
+let lastName=prompt("enter last name");
+let age=prompt("enter your age");
+let msg = firstName + lastName +" is "+ age +" years old ";
+alert(msg);
+console.log("welcome",firstName, lastName, "!");
+
+let n=20;
+if (n%10==0) {
+    console.log("good");
+} else {
+    console.log("bad");
+}
+
+
+let quater=1;
+switch (quater) {
+    case 1:
+        console.log("january,feb ,march");
+        break;
+     case 2:
+        console.log("april ,may ,june");
+        break;
+     case 3:
+        console.log("july,aug,sep");
+        break;
+         case 4:
+        console.log("oct ,nov,dec");
+        break;
+
+}
+
+let strr = "apples";
+if ((strr[0]=='a' || strr[0]=='A') && (strr.length>5)) {
+    console.log("golden string")
+} else {
+    console.log("not golden string");
+}
+
+let x=5;
+let y=10;
+let z=15;
+if(a>b){
+    if(x>z){
+        console.log(x,"is largest");
+    } else {
+        console.log(z,"is largest");
+    }
+} else {
+    if(y>z){
+        console.log(y,"is largest");
+    } else {
+        console.log(z,"is largest");
+    }
+}
 
