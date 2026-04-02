@@ -94,4 +94,6 @@ switch (day) {
 alert("something try to diffrent");
 console.log("this is something good");
 console.error("this is an error msg");
+let firstName=prompt("enter your name");
+console.log(firstName);
 
