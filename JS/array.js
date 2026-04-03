@@ -1,0 +1,23 @@
+let students=["RITIK","ANKIT","MANJEET","SHIVAM",7777];
+console.log(students);
+console.log(students[1]);
+console.log(students.length);
+console.log(typeof students);
+console.log(students[1][1]);
+students[0]="vinay";
+console.log(students);
+students.push('0111');
+console.log(students);
+students.pop();
+console.log(students);
+students.unshift("nitish");
+console.log(students);
+students.shift();
+console.log(students);
+
+let month=['jan','july','march','aug'];
+month.shift();
+month.shift();
+month.unshift("june");
+month.unshift("july");
+console.log(month);

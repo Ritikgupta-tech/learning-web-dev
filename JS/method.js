@@ -19,6 +19,13 @@ console.log(newCollege);
 console.log(newCollege.slice(0,5));
 console.log(newCollege.slice(2));
 console.log(newCollege.slice(-15));//lengthof string-no
+console.log(newCollege.replace("GIDA","aktu"));
 
+let address='gorakhpur';
+newAdress=address.replace("gorakhpur","rustampur");
+console.log(newAdress);
+newAdress=address.repeat(4);
+console.log(newAdress);
 
-
+let courese='      b.tech         ';
+console.log(courese.trim().toUpperCase());
