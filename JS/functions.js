@@ -15,3 +15,34 @@ rolldice();
 rolldice();
 rolldice();
 rolldice();
+let str=["hi","hello","bye","takecare"];
+function concat(str){
+    let result="";
+    for(let i=0; i<str.length; i++){
+        result=result+str[i];
+    
+    }
+    return result;
+}
+function multigreet(func,n){
+    for (let i = 1; i <=count; i++) {
+        func();
+        
+    }
+}
+let greet = function(){
+    console.log("hello");
+}
+multigreet(greet,2);
+
+const calculater ={
+    add: function(a,b){
+        return a+b;
+    },
+     sub: function(a,b){
+        return a-b;
+    },
+    mul: function(a,b){
+        return a*b;
+    }
+};
