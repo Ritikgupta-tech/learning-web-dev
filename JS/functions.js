@@ -46,3 +46,24 @@ const calculater ={
         return a*b;
     }
 };
+
+const student={
+    name:"ritik",
+    age:23,
+    eng:45,
+    math:93,
+    phy:54,
+    getAvg(){
+        let avg=(this.eng+this.math+this.phy)/3;
+        console.log(avg);
+    }
+}
+
+console.log("heloo");
+console.log("heloo");
+try {
+    console.log(a);
+} catch {
+     console.log("eror find a is not defined");
+    
+}
