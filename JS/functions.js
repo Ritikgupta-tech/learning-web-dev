@@ -69,3 +69,14 @@ try {
 }
 console.log("heloo");
 console.log("heloo");
+
+const sum = (a,b) => {
+    console.log(a+b);
+}
+
+
+console.log("heloo i am here to read");
+setTimeout(() => {
+    console.log("heloo time out set ");
+},4000);
+console.log("please exit the window");
