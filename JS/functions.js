@@ -80,3 +80,10 @@ setTimeout(() => {
     console.log("heloo time out set ");
 },4000);
 console.log("please exit the window");
+
+console.log("heloo i am here to read");
+let id=setInterval(() => {
+    console.log("heloo time out set ");
+},4000);
+console.log("please exit the window");
+clearInterval(id);
