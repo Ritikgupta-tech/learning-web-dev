@@ -19,4 +19,18 @@ let even=nums.filter((el) => {
 function sum(a,b=3){
     return a+b;
 }
-sum(2);//5
+sum(2);//5 
+
+let arr =[1,2,3,4,5];
+let newArr=[...arr];
+console.log (newArr);
+
+const data ={
+    email:"ritik95061",
+    pass:273010,
+
+};
+console.log(...data,id=7777);
+
+let names =["ritik","ankiti","mahak","manjeet","shivam"];
+let [winner,runnerup,...others]=names;
