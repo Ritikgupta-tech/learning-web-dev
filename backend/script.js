@@ -9,5 +9,12 @@ const someValue=require("./math");
 console.log(someValue);
 console.log(someValue.pi);*/
 
-const info = require("./Fruits");
-console.log(info);
+/*const info = require("./Fruits");
+console.log(info);*/
+
+/*import {sum,pi } from "./math.js"
+console.log(sum(1,2));*/
+
+import { generate} from "random-words";
+
+console.log(generate());
