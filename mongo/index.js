@@ -24,6 +24,7 @@ User.findOneAndDelete({name:"ritik11"}).then((res)=>{
 });
 
 /*User.deleteMany({age:55}).then((res)=>{
+    
     console.log(res);
 })
 .catch((err)=>{
