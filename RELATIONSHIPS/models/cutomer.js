@@ -27,11 +27,13 @@ main()
     console.log("PRE MIDDLEWARE");
     });*/
 
-    customerSchema.post("findOneAndDelete",async (data) => {
-        console.log(data);
+    customerSchema.post("findOneAndDelete",async (customer) => {
+        if(customer.orders.length){
+          let result = await Order.deleteMany({_id: {$in: customer.orders}}) ;
+        console.log(result);      }
     });
 
-    const Order = mongoose.model("order",orderSchema);
+    const Order = mongoose.model("Order",orderSchema);
     const Customer= mongoose.model("Customer", customerSchema);
 
         //FUNCTIONS
@@ -58,7 +60,7 @@ main()
     };
 
     const delCust = async() =>{
-        let data = await Customer.findByIdAndDelete("6a3b6090cba0a8d0260f579c");
+        let data = await Customer.findByIdAndDelete("6a3c16a02c99445239fe2bb5");
         console.log(data);
     };
     delCust();
